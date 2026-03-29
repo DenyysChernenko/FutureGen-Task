@@ -1,0 +1,19 @@
+project:
+  output_dir: "output"
+  data_dir: "data"
+
+audio_streamer:
+  chunk_duration: 2.5        
+  overlap: 0.5              
+  target_sample_rate: 16000 
+
+transcription:
+  model_name: "base"
+  context_duration: 0.5
+
+
+classifier:
+  model_name: "all-MiniLM-L6-v2"
+  class_descriptions:
+    private: "Personal, confidential, and intimate conversation with emotional tone, personal information like names, addresses, phone numbers, private family matters, medical consultations, or sensitive topics"
+    topic_based: "Professional, structured, business-oriented discussion about specific topics, agenda items, technical subjects, meetings, lectures, presentations, customer support, or work-related matters"

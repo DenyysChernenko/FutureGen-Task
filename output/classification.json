@@ -1,0 +1,13 @@
+{
+  "classification_id": "d8231ea9-c525-4a2b-9f85-668009371ace",
+  "session_id": "session_short_mono_16k",
+  "classification": "topic_based",
+  "confidence": 0.0,
+  "topics": [],
+  "privacy_signals": [],
+  "dominant_topic": null,
+  "sentiment": "neutral",
+  "participants_count": 0,
+  "total_duration_s": 0.0,
+  "model_used": "whisper-base + all-MiniLM-L6-v2"
+}
